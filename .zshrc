@@ -45,5 +45,8 @@ plugins=(history-substring-search git ruby rails fasd)
 
 source $ZSH/oh-my-zsh.sh
 
+#Set default editor
+export EDITOR=vim
+
 # Customize to your needs...
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
