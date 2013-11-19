@@ -52,4 +52,8 @@ export EDITOR=vim
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 
+alias rt='ruby -Itest'
+alias flush_all='echo '\''flush_all'\'' | nc localhost 21211'
+alias be='bundle exec'
+
 fortune smac
